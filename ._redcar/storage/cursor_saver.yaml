@@ -3,4 +3,7 @@ cursor_positions:
   - :path: app/controllers/application_controller.rb
     :cursor_offset: 0
     :timestamp: 2012-03-30 09:30:18.856000 -05:00
+  - :path: Gemfile.lock
+    :cursor_offset: 1173
+    :timestamp: 2012-03-30 10:28:09.221000 -05:00
 files_to_retain: 0
