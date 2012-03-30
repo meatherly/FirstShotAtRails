@@ -3,7 +3,28 @@ cursor_positions:
   - :path: app/controllers/application_controller.rb
     :cursor_offset: 0
     :timestamp: 2012-03-30 09:30:18.856000 -05:00
+  - :path: app/views/layouts/application.html.erb
+    :cursor_offset: 45
+    :timestamp: 2012-03-30 09:30:18.873000 -05:00
+  - :path: db/migrate/20120330190607_create_users.rb
+    :cursor_offset: 0
+    :timestamp: 2012-03-30 14:06:07.408000 -05:00
+  - :path: config/database.yml
+    :cursor_offset: 457
+    :timestamp: 2012-03-30 09:30:20.286000 -05:00
+  - :path: app/controllers/welcome_controller.rb
+    :cursor_offset: 70
+    :timestamp: 2012-03-30 09:45:09.804000 -05:00
+  - :path: app/views/welcome/index.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-03-30 15:10:36.223000 -05:00
+  - :path: Gemfile
+    :cursor_offset: 400
+    :timestamp: 2012-03-30 16:04:13.688000 -05:00
   - :path: Gemfile.lock
-    :cursor_offset: 1173
-    :timestamp: 2012-03-30 10:28:09.221000 -05:00
+    :cursor_offset: 0
+    :timestamp: 2012-03-30 16:01:44.398000 -05:00
+  - :path: config/routes.rb
+    :cursor_offset: 696
+    :timestamp: 2012-03-30 09:47:42.136000 -05:00
 files_to_retain: 0

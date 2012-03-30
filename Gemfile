@@ -7,6 +7,8 @@ gem 'rails', '3.2.1'
 
 gem 'sqlite3'
 gem 'mysql2', :group => :production
+gem 'jquery-rails'
+gem 'anjlab-bootstrap-rails', '>= 2.0'
 
 
 # Gems used only for assets and not required
@@ -14,14 +16,18 @@ gem 'mysql2', :group => :production
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
-
+end
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer'
 
   gem 'uglifier', '>= 1.0.3'
+
+
+group :development do
+  gem 'rspec-rails', '2.9.0'
+  gem 'annotate', '~> 2.4.1.beta'
 end
 
-gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
@@ -37,3 +43,4 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
+__END__

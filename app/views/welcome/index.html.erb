@@ -1,2 +1,39 @@
-<h1>Welcome#index to the Rails Welcome View controller</h1>
-<p>Find me in app/views/welcome/index.html.erb</p>
+<% provide(:title, 'Home') %>
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= yield(:title) %></title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<header class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+      <%= link_to "sample app", '#', id: "logo" %>
+      <nav>
+        <ul class="nav pull-right">
+          <li><%= link_to "Home",    '#' %></li>
+          <li><%= link_to "Help",    '#' %></li>
+          <li class="dropdown">
+    <a class="dropdown-toggle"
+       data-toggle="dropdown"
+       href="#">
+        Dropdown
+        <b class="caret"></b>
+      </a>
+    <ul class="dropdown-menu">
+      <!-- links -->
+    </ul>
+  </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+<div class="container">
+<%= yield %>
+</div>
+</body>
+</html>
